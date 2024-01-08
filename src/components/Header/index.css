@@ -1,0 +1,135 @@
+/* Write your CSS code here */
+
+@media screen and (max-width: 768px) {
+  .header-bg-card {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .header-card {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 4px solid #551e53;
+    border-left: 4px solid #551e53;
+    border-right: 4px solid #551e53;
+  }
+  .header-logo-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo-img {
+    height: 30px;
+  }
+  .logo-heading {
+    font-size: 10px;
+    color: #12022f;
+    margin-left: 10px;
+  }
+
+  .links-card {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .home-text {
+    color: #12022f;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .about-text {
+    color: #12022f;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .contact-text {
+    color: #12022f;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-bg-card {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .header-card {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 4px solid #551e53;
+    border-left: 4px solid #551e53;
+    border-right: 4px solid #551e53;
+  }
+  .header-logo-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo-img {
+    height: 40px;
+  }
+  .logo-heading {
+    font-size: 30px;
+    color: #12022f;
+    margin-left: 10px;
+  }
+
+  .header-links-card {
+  }
+  .links-card {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .home-text {
+    color: #12022f;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .about-text {
+    color: #12022f;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .contact-text {
+    color: #12022f;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
